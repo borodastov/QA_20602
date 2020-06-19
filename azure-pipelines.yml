@@ -8,7 +8,7 @@ pr: none
 #- master
 
 schedules:
-- cron: "59 21 * * *"
+- cron: "59 01 * * *"
   displayName: Daily midnight build
   branches:
     include:
